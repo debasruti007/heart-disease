@@ -22,5 +22,5 @@ def log_result(script, model, settings, seed, metric, value):
             writer.writerow(FIELDS)
         writer.writerow([
             datetime.now().isoformat(timespec="seconds"),
-            script, model, settings, seed, metric, round(float(value), 6),
+                        script, model, settings, seed, metric, float(f"{float(value):.6g}"),
         ])

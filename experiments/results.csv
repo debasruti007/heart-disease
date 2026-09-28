@@ -19,3 +19,9 @@ timestamp,script,model,settings,seed,metric,value
 2026-09-28T22:58:08,perceptron.py,perceptron_linear,activation=linear;lr=0.01;max_epochs=200;folds=5,42,cv_val_acc_std,0.034276
 2026-09-28T22:58:08,perceptron.py,perceptron_linear,activation=linear;lr=0.01;max_epochs=200;folds=5,42,avg_epochs_run,200.0
 2026-09-28T22:58:08,perceptron.py,perceptron_linear,activation=linear;lr=0.01;max_epochs=200;folds=5,42,folds_converged,0.0
+2026-09-28T23:04:30,mlp_scratch.py,mlp_scratch,"layers=[20, 16, 8, 1];lr=0.05;epochs=200;batch=32;folds=5",42,grad_check_rel_error,2.78267e-11
+2026-09-28T23:04:30,mlp_scratch.py,mlp_scratch,"layers=[20, 16, 8, 1];lr=0.05;epochs=200;batch=32;folds=5",42,cv_train_acc,0.977288
+2026-09-28T23:04:30,mlp_scratch.py,mlp_scratch,"layers=[20, 16, 8, 1];lr=0.05;epochs=200;batch=32;folds=5",42,cv_val_acc,0.768452
+2026-09-28T23:04:30,mlp_scratch.py,mlp_scratch,"layers=[20, 16, 8, 1];lr=0.05;epochs=200;batch=32;folds=5",42,cv_val_acc_std,0.0315058
+2026-09-28T23:04:30,mlp_scratch.py,mlp_scratch,"layers=[20, 16, 8, 1];lr=0.05;epochs=200;batch=32;folds=5",42,cv_val_auc,0.813564
+2026-09-28T23:04:30,mlp_scratch.py,mlp_scratch,"layers=[20, 16, 8, 1];lr=0.05;epochs=200;batch=32;folds=5",42,cv_train_val_gap,0.208835
