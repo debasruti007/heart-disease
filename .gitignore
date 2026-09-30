@@ -4,8 +4,6 @@ __pycache__/
 .venv/
 data/raw/*
 !data/raw/.gitkeep
-models/*.keras
-models/*.h5
 api/logs/*.log
 .ipynb_checkpoints/
 venv/
