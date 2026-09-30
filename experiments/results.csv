@@ -70,3 +70,7 @@ timestamp,script,model,settings,seed,metric,value
 2026-09-29T14:04:38,evaluate.py,final_model,test_set,42,test_accuracy,0.852459
 2026-09-29T14:04:38,evaluate.py,final_model,test_set,42,test_recall,1.0
 2026-09-29T14:04:38,evaluate.py,final_model,test_set,42,test_specificity,0.727273
+2026-09-30T21:24:22,generalization_test.py,final_model,hungarian_test,42,hungarian_roc_auc,0.829888
+2026-09-30T21:24:22,generalization_test.py,final_model,hungarian_test,42,hungarian_accuracy,0.772109
+2026-09-30T21:24:22,generalization_test.py,final_model,hungarian_test,42,hungarian_recall,0.716981
+2026-09-30T21:24:22,generalization_test.py,final_model,hungarian_test,42,hungarian_specificity,0.803191

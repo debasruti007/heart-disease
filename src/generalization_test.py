@@ -32,6 +32,7 @@ import pandas as pd
 import joblib
 import tensorflow as tf
 from sklearn.metrics import roc_auc_score, confusion_matrix
+from logger import log_result
 
 RAW_DIR = "data/raw"
 PROCESSED_DIR = "data/processed"
@@ -153,6 +154,10 @@ def main():
     print(f"Recall      : {recall:.3f}")
     print(f"Specificity : {specificity:.3f}")
     print(f"Confusion matrix: TN={tn} FP={fp} FN={fn} TP={tp}")
+    log_result("generalization_test.py", "final_model", "hungarian_test", 42, "hungarian_roc_auc", auc)
+    log_result("generalization_test.py", "final_model", "hungarian_test", 42, "hungarian_accuracy", accuracy)
+    log_result("generalization_test.py", "final_model", "hungarian_test", 42, "hungarian_recall", recall)
+    log_result("generalization_test.py", "final_model", "hungarian_test", 42, "hungarian_specificity", specificity)
  
 
 
