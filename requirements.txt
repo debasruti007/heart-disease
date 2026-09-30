@@ -8,3 +8,5 @@ fastapi
 uvicorn
 streamlit
 joblib
+requests
+seaborn
